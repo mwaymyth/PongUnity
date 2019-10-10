@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="906fb887-b3e4-44ed-a03a-0ddcadec0dc8" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/gameplay/GameplayManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1502412590000" expanded="true" signature="6:78" ph="..." />
+                <marker date="1502412590000" expanded="true" signature="80:129" ph="/// Gameplay manager ... " />
+                <marker date="1502412590000" expanded="true" signature="174:359" ph="{...}" />
+                <marker date="1502412590000" expanded="true" signature="178:240" ph="/// Use this for initialization ... " />
+                <marker date="1502412590000" expanded="true" signature="254:263" ph="{...}" />
+                <marker date="1502412590000" expanded="true" signature="267:333" ph="/// Update is called once per frame ... " />
+                <marker date="1502412590000" expanded="true" signature="348:357" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/gameplay/BallSpawner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1004">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <folding>
+                <marker date="1552333418407" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552333418407" expanded="true" signature="80:127" ph="/// A ball spawner ... " />
+                <marker date="1552333418407" expanded="true" signature="168:3477" ph="{...}" />
+                <marker date="1552333418407" expanded="true" signature="519:2114" ph="Unity methods" />
+                <marker date="1552333418407" expanded="true" signature="546:614" ph="/// Use this for initialization ... " />
+                <marker date="1552333418407" expanded="true" signature="631:1631" ph="{...}" />
+                <marker date="1552333418407" expanded="true" signature="646:722" ph="/* spawn and destroy ball to calculate ... */" />
+                <marker date="1552333418407" expanded="true" signature="1637:1709" ph="/// Update is called once per frame ... " />
+                <marker date="1552333418407" expanded="true" signature="1727:2098" ph="{...}" />
+                <marker date="1552333418407" expanded="true" signature="1766:1978" ph="{...}" />
+                <marker date="1552333418407" expanded="true" signature="2047:2092" ph="{...}" />
+                <marker date="1552333418407" expanded="true" signature="2120:3162" ph="Public methods" />
+                <marker date="1552333418407" expanded="true" signature="2148:2230" ph="/// Spawns a ball in the center of the screen ... " />
+                <marker date="1552333418407" expanded="true" signature="2258:3146" ph="{...}" />
+                <marker date="1552333418407" expanded="true" signature="2396:3076" ph="{...}" />
+                <marker date="1552333418407" expanded="true" signature="2655:2759" ph="{...}" />
+                <marker date="1552333418407" expanded="true" signature="2840:2943" ph="{...}" />
+                <marker date="1552333418407" expanded="true" signature="2960:3066" ph="{...}" />
+                <marker date="1552333418407" expanded="true" signature="3089:3140" ph="{...}" />
+                <marker date="1552333418407" expanded="true" signature="3168:3475" ph="Private methods" />
+                <marker date="1552333418407" expanded="true" signature="3197:3332" ph="/// Gets the spawn delay in seconds for the next ball spawn ... " />
+                <marker date="1552333418407" expanded="true" signature="3358:3459" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/configuration/ConfigurationUtils.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+              <folding>
+                <marker date="1552332470004" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552332470004" expanded="true" signature="80:150" ph="/// Provides access to configuration data ... " />
+                <marker date="1552332470004" expanded="true" signature="189:2590" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="196:2457" ph="Properties" />
+                <marker date="1552332470004" expanded="true" signature="220:298" ph="/// Gets the paddle move units per second ... " />
+                <marker date="1552332470004" expanded="true" signature="347:386" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="392:499" ph="/// Gets the impulse force to apply to a ball ... " />
+                <marker date="1552332470004" expanded="true" signature="540:578" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="584:665" ph="/// Gets how many seconds a ball stays alive ... " />
+                <marker date="1552332470004" expanded="true" signature="705:744" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="750:841" ph="/// Gets the number of points a standard ball is worth ... " />
+                <marker date="1552332470004" expanded="true" signature="878:916" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="922:1011" ph="/// Gets the number of hits a standard ball is worth ... " />
+                <marker date="1552332470004" expanded="true" signature="1046:1084" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="1094:1185" ph="/// Gets the number of points a standard ball is worth ... " />
+                <marker date="1552332470004" expanded="true" signature="1219:1257" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="1263:1352" ph="/// Gets the number of hits a standard ball is worth ... " />
+                <marker date="1552332470004" expanded="true" signature="1384:1422" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="1427:1492" ph="/// Gets the number of hits a standard ball is worth ... " />
+                <marker date="1552332470004" expanded="true" signature="1536:1574" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="1579:1663" ph="/// Gets the number of hits a standard ball is worth ... " />
+                <marker date="1552332470004" expanded="true" signature="1715:1756" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="1761:1839" ph="/// Gets the number of hits a standard ball is worth ... " />
+                <marker date="1552332470004" expanded="true" signature="1888:1929" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="1934:2013" ph="/// Gets the number of hits a standard ball is worth ... " />
+                <marker date="1552332470004" expanded="true" signature="2065:2106" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="2116:2199" ph="/// Gets the min spawn delay for ball spawning ... " />
+                <marker date="1552332470004" expanded="true" signature="2237:2275" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="2281:2364" ph="/// Gets the max spawn delay for ball spawning ... " />
+                <marker date="1552332470004" expanded="true" signature="2402:2441" ph="{...}" />
+                <marker date="1552332470004" expanded="true" signature="2463:2539" ph="/// Initializes the configuration utils ... " />
+                <marker date="1552332470004" expanded="true" signature="2575:2588" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/configuration/ConfigurationData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1547661588000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1547661588000" expanded="true" signature="80:151" ph="/// A container for the configuration data ... " />
+                <marker date="1547661588000" expanded="true" signature="182:1209" ph="{...}" />
+                <marker date="1547661588000" expanded="false" signature="189:406" ph="Fields" />
+                <marker date="1547661588000" expanded="false" signature="412:908" ph="Properties" />
+                <marker date="1547661588000" expanded="true" signature="436:566" ph="/// Gets the paddle move units per second ... " />
+                <marker date="1547661588000" expanded="true" signature="608:669" ph="{...}" />
+                <marker date="1547661588000" expanded="true" signature="675:801" ph="/// Gets the impulse force to apply to move the ball ... " />
+                <marker date="1547661588000" expanded="true" signature="835:892" ph="{...}" />
+                <marker date="1547661588000" expanded="false" signature="914:1207" ph="Constructor" />
+                <marker date="1547661588000" expanded="true" signature="939:1139" ph="/// Constructor ... " />
+                <marker date="1547661588000" expanded="true" signature="1170:1191" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/gameplay/Ball.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
+              <folding>
+                <marker date="1552334982768" expanded="true" signature="6:78" ph="..." />
+                <marker date="1552334982768" expanded="true" signature="101:141" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="143:182" ph="/// A ball ... " />
+                <marker date="1552334982768" expanded="true" signature="216:4709" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="223:554" ph="Fields" />
+                <marker date="1552334982768" expanded="true" signature="560:743" ph="Properties" />
+                <marker date="1552334982768" expanded="true" signature="584:666" ph="/// Gets the number of hits the ball is worth ... " />
+                <marker date="1552334982768" expanded="true" signature="686:727" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="749:3009" ph="Unity methods" />
+                <marker date="1552334982768" expanded="true" signature="780:848" ph="/// Use this for initialization ... " />
+                <marker date="1552334982768" expanded="true" signature="880:1706" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="912:1307" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="1712:1784" ph="/// Update is called once per frame ... " />
+                <marker date="1552334982768" expanded="true" signature="1802:2196" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="1879:1956" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="2023:2190" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="2202:2282" ph="/// Destroys ball when it becomes invisible ... " />
+                <marker date="1552334982768" expanded="true" signature="2311:2993" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="2399:2987" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="2490:2977" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="2589:2685" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="2706:2803" ph="{...}" />
+                <marker date="1552334982768" expanded="false" signature="3015:3385" ph="Public methods" />
+                <marker date="1552334982768" expanded="true" signature="3043:3180" ph="/// Sets the ball direction to the given direction ... " />
+                <marker date="1552334982768" expanded="true" signature="3228:3369" ph="{...}" />
+                <marker date="1552334982768" expanded="false" signature="3391:4707" ph="Private methods" />
+                <marker date="1552334982768" expanded="true" signature="3420:3483" ph="/// Starts the ball moving ... " />
+                <marker date="1552334982768" expanded="true" signature="3506:4172" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="3742:3830" ph="{...}" />
+                <marker date="1552334982768" expanded="true" signature="4178:4368" ph="/// Tells whether or not the ball it outside the screen horizontally ... " />
+                <marker date="1552334982768" expanded="true" signature="4393:4691" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/gameplay/Paddle.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="156" column="27" lean-forward="true" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
+              <folding>
+                <marker date="1552334014722" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552334014722" expanded="true" signature="80:121" ph="/// A paddle ... " />
+                <marker date="1552334014722" expanded="true" signature="157:4744" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="507:575" ph="/// Use this for initialization ... " />
+                <marker date="1552334014722" expanded="true" signature="592:910" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="916:988" ph="/// Update is called once per frame ... " />
+                <marker date="1552334014722" expanded="true" signature="1006:1097" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="1047:1091" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="1103:1183" ph="/// FixedUpdate is called 50 times a second ... " />
+                <marker date="1552334014722" expanded="true" signature="1206:1897" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="1261:1301" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="1394:1463" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="1476:1546" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="1609:1891" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="1903:2107" ph="/// Calculates a y position to clamp the paddle in the screen ... " />
+                <marker date="1552334014722" expanded="true" signature="2144:2495" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="2246:2324" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="2390:2471" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="2501:2637" ph="/// Detects collision with a ball to aim the ball ... " />
+                <marker date="1552334014722" expanded="true" signature="2683:3792" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="2773:3786" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="3352:3417" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="3434:3519" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="3798:4047" ph="/// Checks for a collision at the front of the paddle ... " />
+                <marker date="1552334014722" expanded="true" signature="4089:4352" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="4400:4654" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="4428:4484" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="4497:4595" ph="{...}" />
+                <marker date="1552334014722" expanded="true" signature="4675:4742" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/gameplay/Timer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding>
+                <marker date="1552334093561" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552334093561" expanded="true" signature="80:120" ph="/// A timer ... " />
+                <marker date="1552334093561" expanded="true" signature="155:2194" ph="{...}" />
+                <marker date="1552334093561" expanded="true" signature="159:364" ph="Fields" />
+                <marker date="1552334093561" expanded="true" signature="368:1169" ph="Properties" />
+                <marker date="1552334093561" expanded="true" signature="390:555" ph="/// Sets the duration of the timer ... " />
+                <marker date="1552334093561" expanded="true" signature="578:669" ph="{...}" />
+                <marker date="1552334093561" expanded="true" signature="590:666" ph="{...}" />
+                <marker date="1552334093561" expanded="true" signature="617:662" ph="{...}" />
+                <marker date="1552334093561" expanded="true" signature="673:883" ph="/// Gets whether or not the timer has finished running ... " />
+                <marker date="1552334093561" expanded="true" signature="905:953" ph="{...}" />
+                <marker date="1552334093561" expanded="true" signature="957:1097" ph="/// Gets whether or not the timer is currently running ... " />
+                <marker date="1552334093561" expanded="true" signature="1118:1153" ph="{...}" />
+                <marker date="1552334093561" expanded="true" signature="1175:2192" ph="Methods" />
+                <marker date="1552334093561" expanded="true" signature="1196:1268" ph="/// Update is called once per frame ... " />
+                <marker date="1552334093561" expanded="true" signature="1286:1482" ph="{...}" />
+                <marker date="1552334093561" expanded="true" signature="1349:1479" ph="{...}" />
+                <marker date="1552334093561" expanded="true" signature="1435:1475" ph="{...}" />
+                <marker date="1552334093561" expanded="true" signature="1486:1775" ph="/// Runs the timer ... " />
+                <marker date="1552334093561" expanded="true" signature="1794:1946" ph="{...}" />
+                <marker date="1552334093561" expanded="true" signature="1859:1943" ph="{...}" />
+                <marker date="1552334093561" expanded="true" signature="1952:2008" ph="/// Stops the timer ... " />
+                <marker date="1552334093561" expanded="true" signature="2031:2093" ph="{...}" />
+                <marker date="1552334093561" expanded="true" signature="2124:2177" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/gameplay/Pickup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+              <folding>
+                <marker date="1552336244952" expanded="true" signature="6:78" ph="..." />
+                <marker date="1552336244952" expanded="true" signature="106:1175" ph="{...}" />
+                <marker date="1552336244952" expanded="true" signature="263:429" ph="{...}" />
+                <marker date="1552336244952" expanded="true" signature="332:423" ph="{...}" />
+                <marker date="1552336244952" expanded="true" signature="435:571" ph="/// Detects collision with a ball to aim the ball ... " />
+                <marker date="1552336244952" expanded="true" signature="617:1173" ph="{...}" />
+                <marker date="1552336244952" expanded="true" signature="859:938" ph="{...}" />
+                <marker date="1552336244952" expanded="true" signature="951:1030" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/gameplay/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/configuration/ConfigurationUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/gameplay/BallSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/configuration/ConfigurationData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/util/ScreenUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/util/GameInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/gameplay/Paddle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/gameplay/Pickup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/gameplay/Ball.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/gameplay/GameplayManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/scripts/configuration/ConfigurationUtils.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/gameplay/BallSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/gameplay/Paddle.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/gameplay/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/gameplay/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/gameplay/Pickup.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="riderModule/invalid/Default Android Facet" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2148" />
+    <option name="y" value="23" />
+    <option name="width" value="1173" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="configuration" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="documentation" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="gameplay" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="util" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="906fb887-b3e4-44ed-a03a-0ddcadec0dc8" name="Default Changelist" comment="" />
+      <created>1552281804368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552281804368</updated>
+      <workItem from="1552281808219" duration="2872000" />
+      <workItem from="1552332266696" duration="9000" />
+      <workItem from="1552332282428" duration="3326000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6207000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2148" y="23" width="1173" height="1027" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24933687" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Captures" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Unity" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Errors In Solution" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/documentation/Class Diagrams/GameplayClassDiagram.cd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/util/ScreenUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <marker date="1502318120000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1502318120000" expanded="true" signature="80:138" ph="/// Provides screen utilities ... " />
+            <marker date="1502318120000" expanded="true" signature="170:2182" ph="{...}" />
+            <marker date="1502318120000" expanded="false" signature="177:372" ph="Fields" />
+            <marker date="1502318120000" expanded="false" signature="378:1336" ph="Properties" />
+            <marker date="1502318120000" expanded="true" signature="402:543" ph="/// Gets the left edge of the screen in world coordinates ... " />
+            <marker date="1502318120000" expanded="true" signature="578:625" ph="{...}" />
+            <marker date="1502318120000" expanded="true" signature="631:774" ph="/// Gets the right edge of the screen in world coordinates ... " />
+            <marker date="1502318120000" expanded="true" signature="810:858" ph="{...}" />
+            <marker date="1502318120000" expanded="true" signature="864:1003" ph="/// Gets the top edge of the screen in world coordinates ... " />
+            <marker date="1502318120000" expanded="true" signature="1037:1083" ph="{...}" />
+            <marker date="1502318120000" expanded="true" signature="1089:1234" ph="/// Gets the bottom edge of the screen in world coordinates ... " />
+            <marker date="1502318120000" expanded="true" signature="1271:1320" ph="{...}" />
+            <marker date="1502318120000" expanded="false" signature="1342:2180" ph="Methods" />
+            <marker date="1502318120000" expanded="true" signature="1363:1436" ph="/// Initializes the screen utilities ... " />
+            <marker date="1502318120000" expanded="true" signature="1472:2164" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/util/GameInitializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1499553434000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1499553434000" expanded="true" signature="80:133" ph="/// Initializes the game ... " />
+            <marker date="1499553434000" expanded="true" signature="179:352" ph="{...}" />
+            <marker date="1499553434000" expanded="true" signature="186:255" ph="/// Awake is called before Start ... " />
+            <marker date="1499553434000" expanded="true" signature="269:350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/configuration/ConfigurationData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1547661588000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1547661588000" expanded="true" signature="80:151" ph="/// A container for the configuration data ... " />
+            <marker date="1547661588000" expanded="true" signature="182:1209" ph="{...}" />
+            <marker date="1547661588000" expanded="false" signature="189:406" ph="Fields" />
+            <marker date="1547661588000" expanded="false" signature="412:908" ph="Properties" />
+            <marker date="1547661588000" expanded="true" signature="436:566" ph="/// Gets the paddle move units per second ... " />
+            <marker date="1547661588000" expanded="true" signature="608:669" ph="{...}" />
+            <marker date="1547661588000" expanded="true" signature="675:801" ph="/// Gets the impulse force to apply to move the ball ... " />
+            <marker date="1547661588000" expanded="true" signature="835:892" ph="{...}" />
+            <marker date="1547661588000" expanded="false" signature="914:1207" ph="Constructor" />
+            <marker date="1547661588000" expanded="true" signature="939:1139" ph="/// Constructor ... " />
+            <marker date="1547661588000" expanded="true" signature="1170:1191" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/configuration/ConfigurationUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+          <folding>
+            <marker date="1552332470004" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552332470004" expanded="true" signature="80:150" ph="/// Provides access to configuration data ... " />
+            <marker date="1552332470004" expanded="true" signature="189:2590" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="196:2457" ph="Properties" />
+            <marker date="1552332470004" expanded="true" signature="220:298" ph="/// Gets the paddle move units per second ... " />
+            <marker date="1552332470004" expanded="true" signature="347:386" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="392:499" ph="/// Gets the impulse force to apply to a ball ... " />
+            <marker date="1552332470004" expanded="true" signature="540:578" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="584:665" ph="/// Gets how many seconds a ball stays alive ... " />
+            <marker date="1552332470004" expanded="true" signature="705:744" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="750:841" ph="/// Gets the number of points a standard ball is worth ... " />
+            <marker date="1552332470004" expanded="true" signature="878:916" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="922:1011" ph="/// Gets the number of hits a standard ball is worth ... " />
+            <marker date="1552332470004" expanded="true" signature="1046:1084" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="1094:1185" ph="/// Gets the number of points a standard ball is worth ... " />
+            <marker date="1552332470004" expanded="true" signature="1219:1257" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="1263:1352" ph="/// Gets the number of hits a standard ball is worth ... " />
+            <marker date="1552332470004" expanded="true" signature="1384:1422" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="1427:1492" ph="/// Gets the number of hits a standard ball is worth ... " />
+            <marker date="1552332470004" expanded="true" signature="1536:1574" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="1579:1663" ph="/// Gets the number of hits a standard ball is worth ... " />
+            <marker date="1552332470004" expanded="true" signature="1715:1756" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="1761:1839" ph="/// Gets the number of hits a standard ball is worth ... " />
+            <marker date="1552332470004" expanded="true" signature="1888:1929" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="1934:2013" ph="/// Gets the number of hits a standard ball is worth ... " />
+            <marker date="1552332470004" expanded="true" signature="2065:2106" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="2116:2199" ph="/// Gets the min spawn delay for ball spawning ... " />
+            <marker date="1552332470004" expanded="true" signature="2237:2275" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="2281:2364" ph="/// Gets the max spawn delay for ball spawning ... " />
+            <marker date="1552332470004" expanded="true" signature="2402:2441" ph="{...}" />
+            <marker date="1552332470004" expanded="true" signature="2463:2539" ph="/// Initializes the configuration utils ... " />
+            <marker date="1552332470004" expanded="true" signature="2575:2588" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/gameplay/Paddle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="156" column="27" lean-forward="true" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
+          <folding>
+            <marker date="1552334014722" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552334014722" expanded="true" signature="80:121" ph="/// A paddle ... " />
+            <marker date="1552334014722" expanded="true" signature="157:4744" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="507:575" ph="/// Use this for initialization ... " />
+            <marker date="1552334014722" expanded="true" signature="592:910" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="916:988" ph="/// Update is called once per frame ... " />
+            <marker date="1552334014722" expanded="true" signature="1006:1097" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="1047:1091" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="1103:1183" ph="/// FixedUpdate is called 50 times a second ... " />
+            <marker date="1552334014722" expanded="true" signature="1206:1897" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="1261:1301" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="1394:1463" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="1476:1546" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="1609:1891" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="1903:2107" ph="/// Calculates a y position to clamp the paddle in the screen ... " />
+            <marker date="1552334014722" expanded="true" signature="2144:2495" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="2246:2324" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="2390:2471" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="2501:2637" ph="/// Detects collision with a ball to aim the ball ... " />
+            <marker date="1552334014722" expanded="true" signature="2683:3792" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="2773:3786" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="3352:3417" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="3434:3519" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="3798:4047" ph="/// Checks for a collision at the front of the paddle ... " />
+            <marker date="1552334014722" expanded="true" signature="4089:4352" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="4400:4654" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="4428:4484" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="4497:4595" ph="{...}" />
+            <marker date="1552334014722" expanded="true" signature="4675:4742" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/gameplay/Ball.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
+          <folding>
+            <marker date="1552334982768" expanded="true" signature="6:78" ph="..." />
+            <marker date="1552334982768" expanded="true" signature="101:141" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="143:182" ph="/// A ball ... " />
+            <marker date="1552334982768" expanded="true" signature="216:4709" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="223:554" ph="Fields" />
+            <marker date="1552334982768" expanded="true" signature="560:743" ph="Properties" />
+            <marker date="1552334982768" expanded="true" signature="584:666" ph="/// Gets the number of hits the ball is worth ... " />
+            <marker date="1552334982768" expanded="true" signature="686:727" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="749:3009" ph="Unity methods" />
+            <marker date="1552334982768" expanded="true" signature="780:848" ph="/// Use this for initialization ... " />
+            <marker date="1552334982768" expanded="true" signature="880:1706" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="912:1307" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="1712:1784" ph="/// Update is called once per frame ... " />
+            <marker date="1552334982768" expanded="true" signature="1802:2196" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="1879:1956" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="2023:2190" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="2202:2282" ph="/// Destroys ball when it becomes invisible ... " />
+            <marker date="1552334982768" expanded="true" signature="2311:2993" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="2399:2987" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="2490:2977" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="2589:2685" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="2706:2803" ph="{...}" />
+            <marker date="1552334982768" expanded="false" signature="3015:3385" ph="Public methods" />
+            <marker date="1552334982768" expanded="true" signature="3043:3180" ph="/// Sets the ball direction to the given direction ... " />
+            <marker date="1552334982768" expanded="true" signature="3228:3369" ph="{...}" />
+            <marker date="1552334982768" expanded="false" signature="3391:4707" ph="Private methods" />
+            <marker date="1552334982768" expanded="true" signature="3420:3483" ph="/// Starts the ball moving ... " />
+            <marker date="1552334982768" expanded="true" signature="3506:4172" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="3742:3830" ph="{...}" />
+            <marker date="1552334982768" expanded="true" signature="4178:4368" ph="/// Tells whether or not the ball it outside the screen horizontally ... " />
+            <marker date="1552334982768" expanded="true" signature="4393:4691" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/gameplay/Timer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <marker date="1552334093561" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552334093561" expanded="true" signature="80:120" ph="/// A timer ... " />
+            <marker date="1552334093561" expanded="true" signature="155:2194" ph="{...}" />
+            <marker date="1552334093561" expanded="true" signature="159:364" ph="Fields" />
+            <marker date="1552334093561" expanded="true" signature="368:1169" ph="Properties" />
+            <marker date="1552334093561" expanded="true" signature="390:555" ph="/// Sets the duration of the timer ... " />
+            <marker date="1552334093561" expanded="true" signature="578:669" ph="{...}" />
+            <marker date="1552334093561" expanded="true" signature="590:666" ph="{...}" />
+            <marker date="1552334093561" expanded="true" signature="617:662" ph="{...}" />
+            <marker date="1552334093561" expanded="true" signature="673:883" ph="/// Gets whether or not the timer has finished running ... " />
+            <marker date="1552334093561" expanded="true" signature="905:953" ph="{...}" />
+            <marker date="1552334093561" expanded="true" signature="957:1097" ph="/// Gets whether or not the timer is currently running ... " />
+            <marker date="1552334093561" expanded="true" signature="1118:1153" ph="{...}" />
+            <marker date="1552334093561" expanded="true" signature="1175:2192" ph="Methods" />
+            <marker date="1552334093561" expanded="true" signature="1196:1268" ph="/// Update is called once per frame ... " />
+            <marker date="1552334093561" expanded="true" signature="1286:1482" ph="{...}" />
+            <marker date="1552334093561" expanded="true" signature="1349:1479" ph="{...}" />
+            <marker date="1552334093561" expanded="true" signature="1435:1475" ph="{...}" />
+            <marker date="1552334093561" expanded="true" signature="1486:1775" ph="/// Runs the timer ... " />
+            <marker date="1552334093561" expanded="true" signature="1794:1946" ph="{...}" />
+            <marker date="1552334093561" expanded="true" signature="1859:1943" ph="{...}" />
+            <marker date="1552334093561" expanded="true" signature="1952:2008" ph="/// Stops the timer ... " />
+            <marker date="1552334093561" expanded="true" signature="2031:2093" ph="{...}" />
+            <marker date="1552334093561" expanded="true" signature="2124:2177" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/gameplay/Pickup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <marker date="1552336244952" expanded="true" signature="6:78" ph="..." />
+            <marker date="1552336244952" expanded="true" signature="106:1175" ph="{...}" />
+            <marker date="1552336244952" expanded="true" signature="263:429" ph="{...}" />
+            <marker date="1552336244952" expanded="true" signature="332:423" ph="{...}" />
+            <marker date="1552336244952" expanded="true" signature="435:571" ph="/// Detects collision with a ball to aim the ball ... " />
+            <marker date="1552336244952" expanded="true" signature="617:1173" ph="{...}" />
+            <marker date="1552336244952" expanded="true" signature="859:938" ph="{...}" />
+            <marker date="1552336244952" expanded="true" signature="951:1030" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/gameplay/GameplayManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1502412590000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1502412590000" expanded="true" signature="80:129" ph="/// Gameplay manager ... " />
+            <marker date="1502412590000" expanded="true" signature="174:359" ph="{...}" />
+            <marker date="1502412590000" expanded="true" signature="178:240" ph="/// Use this for initialization ... " />
+            <marker date="1502412590000" expanded="true" signature="254:263" ph="{...}" />
+            <marker date="1502412590000" expanded="true" signature="267:333" ph="/// Update is called once per frame ... " />
+            <marker date="1502412590000" expanded="true" signature="348:357" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/gameplay/BallSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1004">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <marker date="1552333418407" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552333418407" expanded="true" signature="80:127" ph="/// A ball spawner ... " />
+            <marker date="1552333418407" expanded="true" signature="168:3477" ph="{...}" />
+            <marker date="1552333418407" expanded="true" signature="519:2114" ph="Unity methods" />
+            <marker date="1552333418407" expanded="true" signature="546:614" ph="/// Use this for initialization ... " />
+            <marker date="1552333418407" expanded="true" signature="631:1631" ph="{...}" />
+            <marker date="1552333418407" expanded="true" signature="646:722" ph="/* spawn and destroy ball to calculate ... */" />
+            <marker date="1552333418407" expanded="true" signature="1637:1709" ph="/// Update is called once per frame ... " />
+            <marker date="1552333418407" expanded="true" signature="1727:2098" ph="{...}" />
+            <marker date="1552333418407" expanded="true" signature="1766:1978" ph="{...}" />
+            <marker date="1552333418407" expanded="true" signature="2047:2092" ph="{...}" />
+            <marker date="1552333418407" expanded="true" signature="2120:3162" ph="Public methods" />
+            <marker date="1552333418407" expanded="true" signature="2148:2230" ph="/// Spawns a ball in the center of the screen ... " />
+            <marker date="1552333418407" expanded="true" signature="2258:3146" ph="{...}" />
+            <marker date="1552333418407" expanded="true" signature="2396:3076" ph="{...}" />
+            <marker date="1552333418407" expanded="true" signature="2655:2759" ph="{...}" />
+            <marker date="1552333418407" expanded="true" signature="2840:2943" ph="{...}" />
+            <marker date="1552333418407" expanded="true" signature="2960:3066" ph="{...}" />
+            <marker date="1552333418407" expanded="true" signature="3089:3140" ph="{...}" />
+            <marker date="1552333418407" expanded="true" signature="3168:3475" ph="Private methods" />
+            <marker date="1552333418407" expanded="true" signature="3197:3332" ph="/// Gets the spawn delay in seconds for the next ball spawn ... " />
+            <marker date="1552333418407" expanded="true" signature="3358:3459" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
